@@ -6,20 +6,20 @@
 --------------------Configuration: caculate - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\DMT\AppData\Local\Temp\RSPC4AE.tmp" with contents
+Creating temporary file "C:\Users\yyljj\AppData\Local\Temp\RSP5CC.tmp" with contents
 [
-/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/caculate.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
-"D:\Cpphomework\caculate\caculate.cpp"
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/caculate.pdb" /debug /machine:I386 /out:"Debug/caculate.exe" /pdbtype:sept 
+.\Debug\caculate.obj
+.\Debug\main.obj
 ]
-Creating command line "cl.exe @C:\Users\DMT\AppData\Local\Temp\RSPC4AE.tmp" 
+Creating command line "link.exe @C:\Users\yyljj\AppData\Local\Temp\RSP5CC.tmp"
 <h3>Output Window</h3>
-Compiling...
-caculate.cpp
+Linking...
 
 
 
 <h3>Results</h3>
-caculate.obj - 0 error(s), 0 warning(s)
+caculate.exe - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>

@@ -1,9 +1,19 @@
 #include "caculate.h"
+#include <iostream.h>
 int main()
 {
-	Ccaculate a;
-	a.getOperate();
-	a.getX();
-	a.caculate();
+	for(;;)
+	{
+		Ccaculate a;
+		a.getOperate();
+		if(a.ifRightOperate()==false)
+		{
+			cout<<"请输入正确的操作符"<<endl;
+			continue;
+		}
+		a.getX();
+		a.caculate();
+	}
+	
 	return 0;
 }

@@ -46,7 +46,8 @@ void Ccaculate::caculate()
 			cout<<1.0*this->_x1/this->_x2<<endl;
 			break;
 		default:
-			cout<<"请输入正确的运算符"<<endl;
+			//cout<<"请输入正确的运算符"<<endl;
+			;
 	}
 }
 void Ccaculate::getX()
@@ -56,4 +57,9 @@ void Ccaculate::getX()
 	cin>>x1>>x2;
 	this->_x1 = x1;
 	this->_x2 = x2;
+}
+bool Ccaculate::ifRightOperate()
+{
+	return (this->_operate=='+'||this->_operate=='-'||this->_operate=='*'||this->_operate=='/');
+
 }

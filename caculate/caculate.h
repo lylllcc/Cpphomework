@@ -20,6 +20,7 @@ public:
 	void getOperate();
 	void caculate();
 	void getX();
+	bool ifRightOperate();
 
 };
 
