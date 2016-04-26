@@ -25,7 +25,7 @@ void Ccaculate::getOperate()
 	string operate;
 	cin>>operate;
 	this->_operate = operate[0];
-	cout<<this->_operate;
+	//cout<<this->_operate;
 
 }
 void Ccaculate::caculate()
